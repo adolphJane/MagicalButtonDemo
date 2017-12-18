@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MagicalButton">
+        <attr name="enable_label_color" format="color|reference"/>
+        <attr name="unable_label_color" format="color|reference"/>
+        <attr name="text_color" format="color|reference"/>
+        <attr name="background_color" format="color|reference"/>
+        <attr name="circle_color" format="color|reference"/>
+        <attr name="background_round" format="integer|dimension"/>
+    </declare-styleable>
+</resources>

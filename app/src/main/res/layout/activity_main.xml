@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.magicalrice.customview.magicalbuttondemo.MainActivity">
+
+    <com.magicalrice.customview.magicalbutton.MagicalButton
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        app:background_color="@color/colorPrimaryDark"
+        app:enable_label_color="@color/colorPrimary"
+        app:circle_color="@android:color/white"
+        app:unable_label_color="@android:color/darker_gray"
+        app:text_color="@android:color/holo_green_dark"/>
+
+</android.support.constraint.ConstraintLayout>
